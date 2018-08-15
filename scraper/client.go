@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package scraper
 
 import (
@@ -10,10 +15,10 @@ import (
 	"net/url"
 	"strings"
 	"time"
-	// "github.com/sethgrid/pester"
-	"golang.org/x/net/proxy"
 
+	// "github.com/sethgrid/pester"
 	"github.com/PuerkitoBio/goquery"
+	"golang.org/x/net/proxy"
 )
 
 type Client interface {

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package scraper
 
 import (
@@ -31,7 +36,7 @@ func TestStreamRunner_worker(t *testing.T) {
 		s    *StreamRunner
 		args args
 	}{
-	// TODO: Add test cases.
+		// TODO: Add test cases.
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -46,7 +51,7 @@ func TestStreamRunner_pool(t *testing.T) {
 		s    *StreamRunner
 		want *StreamRunner
 	}{
-	// TODO: Add test cases.
+		// TODO: Add test cases.
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -67,7 +72,7 @@ func TestStreamRunner_Add(t *testing.T) {
 		args args
 		want bool
 	}{
-	// TODO: Add test cases.
+		// TODO: Add test cases.
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -114,7 +119,7 @@ func TestStreamRunner_GetError(t *testing.T) {
 		args args
 		want <-chan emitter.Event
 	}{
-	// TODO: Add test cases.
+		// TODO: Add test cases.
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -130,7 +135,7 @@ func TestStreamRunner_Close(t *testing.T) {
 		name string
 		s    *StreamRunner
 	}{
-	// TODO: Add test cases.
+		// TODO: Add test cases.
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -148,7 +153,7 @@ func TestNewStreamRunner(t *testing.T) {
 		args args
 		want *StreamRunner
 	}{
-	// TODO: Add test cases.
+		// TODO: Add test cases.
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

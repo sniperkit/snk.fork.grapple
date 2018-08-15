@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package scraper
 
 // func OnNextRow(onNextRow func(row interface{})) func(*RestScraper) error {

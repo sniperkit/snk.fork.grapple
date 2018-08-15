@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package scraper
 
 import (
@@ -6,6 +11,7 @@ import (
 	"github.com/mgutz/logxi/v1"
 	"github.com/paulbellamy/ratecounter"
 	"github.com/ungerik/go-dry"
+
 	//	"github.com/kennygrant/sanitize"
 	"encoding/json"
 	"fmt"

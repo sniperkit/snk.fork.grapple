@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package scraper
 
 import (
@@ -5,9 +10,10 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/osiloke/grapple/mocks"
 	. "github.com/smartystreets/goconvey/convey"
 	. "github.com/stretchr/testify/mock"
+
+	"github.com/sniperkit/snk.fork.grapple/mocks"
 )
 
 func TestClientError(t *testing.T) {
